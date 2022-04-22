@@ -1,10 +1,12 @@
 ﻿@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
 
 body {
-    background-image: url("../assets/wallpaper.jpg");
+    /* background-image: url("../assets/wallpaper.jpg"); */
     background-color: #cccccc;
     background-size: cover;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url(../assets/wallpaper.jpg);
 }
+
 .welcome_msg {
     width:60%;
     margin:1rem auto!important ;
@@ -22,20 +24,49 @@ h2{
 
 .card{
     border-radius:10px !important;
-    padding:5% !important;
+    padding:2% !important;
     width:60% !important;
     margin: 0 auto !important;
+    border : 5px ridge slategray ;
+    background-color: #E6E6FA;
+    text-align: center !important;
+    /* border : 5px ridge rgb(164, 197, 230) ; */
+    border-bottom-color: aqua;
+   
 }
 
 
-.card-img{
+/* .card-img{
     width:40% !important;
+    height: 50rem;
+} */
+.pep{
+    height: 10rem;
+    width: 45rem;
+    margin-left: 8%;
 }
+.img-pep{
+    margin: 0 ;
+    margin-right: 20%;
+    width: 30rem;
+}
+ul{
+    list-style: none;
+}
+
 
 .mainCarasoul{
-    margin:4% auto !important ;
-    color:white !important;
-    padding:5% !important
+    margin:5% auto !important ;
+    color:rgb(255, 255, 255) !important;
+    /* padding:5% !important; */
+    width: 60%;
+    text-align: center;
+    background-origin: border-box;
+    /* border: 1px inset; */
+    /* background-color : rgba(130, 130, 130, 0.7) ; */
+    border : 5px ridge rgb(164, 197, 230) ;
+    border-top-color: aqua;
+    border-radius:10px !important;
 }
 
 .about_us {
