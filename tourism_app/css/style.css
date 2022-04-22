@@ -1,0 +1,72 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+
+body {
+    background-image: url("../assets/wallpaper.jpg");
+    background-color: #cccccc;
+    background-size: cover;
+}
+.welcome_msg {
+    width:80%;
+    margin: 8rem auto!important ;
+    font-size: 5rem !important;
+    color: white !important;
+    text-align: center;
+    font-family: 'Square Peg', cursive;
+    font-weight:bolder
+}
+h2{
+    margin-top:0 !important;
+}
+
+.card{
+    border-radius:10px !important;
+    padding:5% !important;
+    width:60% !important;
+    margin: 0 auto !important;
+}
+
+
+.card-img{
+    width:40% !important;
+}
+
+.mainCarasoul{
+    margin:4% auto !important ;
+    color:white !important;
+    padding:5% !important
+}
+
+.about_us {
+    width:80%;
+    text-align: center;
+    margin: 8rem auto !important;
+    font-size: 20px !important;
+    color: white !important;
+}
+
+.dest_card{
+    width:70% !important
+}
+.destinations_cards {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr 1fr ;
+}
+
+.card-title:hover {
+    text-transform: uppercase;
+    transform: scale(1.4);
+    font-weight:600 ;
+}
+.card-title {
+    transition: transform 250ms, opacity 400ms !important;
+    text-align:center !important;
+ }
+
+
+.contact_form {
+    margin:0 auto;
+    background-color: white !important;
+    width:70%;
+    padding:3%;
+    border-radius:10px;
+}
